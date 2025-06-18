@@ -32,6 +32,34 @@ This tool lets you add or test elements, view live updates to a bit array, and o
 ## Getting Started
 
 ### 1. Clone the repo
-```bash
+
 git clone https://github.com/your-username/bloom-filter-visualizer.git
 cd bloom-filter-visualizer
+
+### 2. Install dependencies
+pip install -r requirements.txt
+
+### 3. Run the app
+
+python bloom_filter.py
+
+Then open your browser at: http://127.0.0.1:8050/
+
+### Project Structure
+
+bloom-filter-visualizer/
+├── bloom_filter.py        # Main Dash app
+├── requirements.txt       # Dependencies
+├── README.md              # You're reading it
+└── .gitignore             # Optional cleanup
+
+### About Bloom Filters
+
+A Bloom Filter is a space-efficient, probabilistic data structure used to test whether an element is a member of a set. False positives are possible, but false negatives are not.
+
+### Credits
+
+Created by @Chayan17varshney
+
+
+
