@@ -45,14 +45,6 @@ python bloom_filter.py
 
 Then open your browser at: http://127.0.0.1:8050/
 
-### Project Structure
-
-bloom-filter-visualizer/
-├── bloom_filter.py        # Main Dash app
-├── requirements.txt       # Dependencies
-├── README.md              # You're reading it
-└── .gitignore             # Optional cleanup
-
 ### About Bloom Filters
 
 A Bloom Filter is a space-efficient, probabilistic data structure used to test whether an element is a member of a set. False positives are possible, but false negatives are not.
