@@ -1,0 +1,5 @@
+bloom-filter-project/
+├── bloom_filter.py              # main Dash app
+├── README.md                    # Project overview
+├── requirements.txt             # Dependencies
+└── .gitignore                   # Optional: ignores .pyc, etc.

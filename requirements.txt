@@ -1,0 +1,4 @@
+dash
+plotly
+torch
+dash-bootstrap-components
